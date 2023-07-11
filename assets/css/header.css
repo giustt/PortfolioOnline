@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header .photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header .tittle {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    text-align: start;
+}
+
+.textDetail {
+    color: #c00000;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.125rem;
+}
+
+.information__itens {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.information__itens__iten {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0 0 0;
+    gap: 5px;
+}
+
+.informationText {
+    display: block;
+    margin: 10 10 10 10;
+}
+
+.iten__contact {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.iten__contact:hover{
+    color: #116D6E;
+}
+.fixedInfo {
+    margin-top: 5px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .header {
+        display: grid;
+        grid-template-areas:
+            "photo title"
+            "photo information"
+        ;
+    }
+
+    .header .photo {
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .header .title {
+        grid-area: title;
+        text-align: start;
+        max-width: 210px;
+    }
+
+    .header .information {
+        grid-area: information;
+    }
+}
