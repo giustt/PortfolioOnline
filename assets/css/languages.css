@@ -1,0 +1,29 @@
+.languages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.languages li{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 5px;
+}
+
+.languages li p{
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 768px){
+    .languages{
+        justify-content: space-around;
+
+    }
+}
