@@ -65,15 +65,18 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "GitHub Api",
+      "url": "https://github.com/giustt/react-github-api",
+      "urlVercel": "https://react-github-api-six.vercel.app",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Portfolio Alura",
+      "url": "https://github.com/giustt/portfolio-alura",
+      "urlVercel": "https://portfolio-alura-flax.vercel.app",
       "github": true
     }
+
   ],
   "professionalExperience": [
     {
