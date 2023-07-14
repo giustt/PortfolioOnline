@@ -13,3 +13,8 @@ function restoreText(element) {
 function restoreTextEmail(element) {
     element.innerHTML = "gustavodecassio00@gmail.com";
 }
+
+(async () => {
+    const profileData = await fetchProfileData()
+    console.log(profileData)
+})()

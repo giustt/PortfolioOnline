@@ -38,8 +38,8 @@
 
     <main class="main">
         <header class="header">
-            <img class="photo" src="assets/img/ProfileIn.jpg" alt="Gustavo Perez">
-            <h1 class="tittle">Olá, <br>eu sou o <span class="textDetail">Gustavo Perez</span></h1>
+            <img class="photo" src="assets/img/ProfileIn.jpg" alt="Gustavo Perez" class="profile.photo">
+            <h1 class="tittle">Olá, <br>eu sou o <span class="textDetail profile.name">Loading...</span></h1>
 
             <div class="information">
                 <div class="information__itens">
@@ -47,23 +47,22 @@
                         <span class="inline_position  material-symbols-outlined">
                             person_4
                         </span>
-                        <a href="#" class="fixedInfo">Estágiario Dev</a>
+                        <a href="#" class="fixedInfo profile.job">Loading...</a>
                     </div>
 
                     <div class="information__itens__iten">
                         <span class="material-symbols-outlined">
                             location_on
                         </span>
-                        <a href="#" class="fixedInfo">São Paulo - SP</a>
+                        <a href="#" class="fixedInfo profile.location">Loading...</span></a>
                     </div>
 
-                    <div class="information__itens__iten">
+                    <div class="information__itens__iten profile.phone">
                         <span class="inline_position  material-symbols-outlined">
                             dialpad
                         </span>
-                        <a class="iten__contact fixedInfo" onmouseover="changeText(this)" onmouseout="restoreText(this)"
-                            href="https://api.whatsapp.com/send?phone=+5511952658821&text=Ol%C3%A1%2C%20Gustavo%21%20%C3%89%20um%20prazer%20conhec%C3%AA-lo%20e%20ter%20a%20oportunidade%20de%20discutir%20sobre%20uma%20nova%20oportunidade.%20%20Estou%20ansioso%20para%20saber%20mais%20sobre%20suas%20habilidades%20e%20experi%C3%AAncias%2C%20e%20como%20elas%20podem%20contribuir%20para%20nossa%20equipe.%20Vamos%20come%C3%A7ar%3F">+55
-                            (11) 9 5265-8821</a>
+                        <a class="iten__contact fixedInfo profile.email" onmouseover="changeText(this)" onmouseout="restoreText(this)"
+                            href="https://api.whatsapp.com/send?phone=+5511952658821&text=Ol%C3%A1%2C%20Gustavo%21%20%C3%89%20um%20prazer%20conhec%C3%AA-lo%20e%20ter%20a%20oportunidade%20de%20discutir%20sobre%20uma%20nova%20oportunidade.%20%20Estou%20ansioso%20para%20saber%20mais%20sobre%20suas%20habilidades%20e%20experi%C3%AAncias%2C%20e%20como%20elas%20podem%20contribuir%20para%20nossa%20equipe.%20Vamos%20come%C3%A7ar%3F">Loading...</a>
 
                     </div>
 
@@ -73,7 +72,7 @@
                         </span>
                         <a class="iten__contact" onmouseover="changeTextEmail(this)" onmouseout="restoreTextEmail(this)"
                             href="mailto:gustavodecassio00@gmail.com?subject=Venha%20Estagiar%20Conosco&body=Olá%2C%20Gustavo%21%0D%0A%0D%0AÉ%20um%20prazer%20conhecê-lo%20e%20ter%20a%20oportunidade%20de%20discutir%20sobre%20uma%20nova%20oportunidade.%20Estou%20ansioso%20para%20saber%20mais%20sobre%20suas%20habilidades%20e%20experiências%2C%20e%20como%20elas%20podem%20contribuir%20para%20nossa%20equipe.%0D%0A%0D%0AVamos%20começar%3F">
-                            gustavodecassio00@gmail.com
+                            Loading...
                         </a>
                     </div>
                 </div>
@@ -240,8 +239,10 @@
 
     </main>
 
-    <script src="assets/js/main.js"></script>
     <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
+
 
 </body>
 
