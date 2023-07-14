@@ -12,8 +12,8 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
-        "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/giustt/PortfolioOnline/main/assets/img/icons/tools/cdnlogo.com_javascript.svg"
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
       },
       {
         "name": "Angular",
@@ -31,37 +31,6 @@
         "name": "Postgresql",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
-
-      <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_html.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_css.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_javascript.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_typescript.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/react.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/nodejs.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/c-sharp.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/dotnet.png" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_postgresql.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_microsoft-access.svg" alt="">
-                            </li>
     ],
     "softSkills": [
       "Empatia",
