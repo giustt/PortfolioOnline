@@ -38,8 +38,8 @@
 
     <main class="main">
         <header class="header">
-            <img class="photo" src="assets/img/ProfileIn.jpg" alt="Gustavo Perez" class="profile.photo">
-            <h1 class="tittle">Olá, <br>eu sou o <span class="textDetail profile.name">Loading...</span></h1>
+            <img class="photo" src="" alt="Gustavo Perez" id="profile.photo">
+            <h1 class="tittle">Olá, <br>eu sou o <span class="textDetail" id="profile.name">Loading...</span></h1>
 
             <div class="information">
                 <div class="information__itens">
@@ -47,21 +47,21 @@
                         <span class="inline_position  material-symbols-outlined">
                             person_4
                         </span>
-                        <a href="#" class="fixedInfo profile.job">Loading...</a>
+                        <a href="#" class="fixedInfo" id="profile.job">Loading...</a>
                     </div>
 
                     <div class="information__itens__iten">
                         <span class="material-symbols-outlined">
                             location_on
                         </span>
-                        <a href="#" class="fixedInfo profile.location">Loading...</span></a>
+                        <a href="#" class="fixedInfo" id="profile.location">Loading...</span></a>
                     </div>
 
                     <div class="information__itens__iten profile.phone">
                         <span class="inline_position  material-symbols-outlined">
                             dialpad
                         </span>
-                        <a class="iten__contact fixedInfo profile.email" onmouseover="changeText(this)" onmouseout="restoreText(this)"
+                        <a class="iten__contact fixedInfo" id="profile.phone" onmouseover="changeText(this)" onmouseout="restoreText(this)"
                             href="https://api.whatsapp.com/send?phone=+5511952658821&text=Ol%C3%A1%2C%20Gustavo%21%20%C3%89%20um%20prazer%20conhec%C3%AA-lo%20e%20ter%20a%20oportunidade%20de%20discutir%20sobre%20uma%20nova%20oportunidade.%20%20Estou%20ansioso%20para%20saber%20mais%20sobre%20suas%20habilidades%20e%20experi%C3%AAncias%2C%20e%20como%20elas%20podem%20contribuir%20para%20nossa%20equipe.%20Vamos%20come%C3%A7ar%3F">Loading...</a>
 
                     </div>
@@ -70,7 +70,7 @@
                         <span class="inline_position  material-symbols-outlined">
                             mail
                         </span>
-                        <a class="iten__contact" onmouseover="changeTextEmail(this)" onmouseout="restoreTextEmail(this)"
+                        <a class="iten__contact" id="profile.email" onmouseover="changeTextEmail(this)" onmouseout="restoreTextEmail(this)"
                             href="mailto:gustavodecassio00@gmail.com?subject=Venha%20Estagiar%20Conosco&body=Olá%2C%20Gustavo%21%0D%0A%0D%0AÉ%20um%20prazer%20conhecê-lo%20e%20ter%20a%20oportunidade%20de%20discutir%20sobre%20uma%20nova%20oportunidade.%20Estou%20ansioso%20para%20saber%20mais%20sobre%20suas%20habilidades%20e%20experiências%2C%20e%20como%20elas%20podem%20contribuir%20para%20nossa%20equipe.%0D%0A%0D%0AVamos%20começar%3F">
                             Loading...
                         </a>
@@ -91,44 +91,14 @@
                 <div class="skills">
                     <section class="acordeon__content__tools">
                         <h3>Hards</h3>
-                        <ul>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_html.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_css.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_javascript.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_typescript.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/react.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/nodejs.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/c-sharp.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/dotnet.png" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_postgresql.svg" alt="">
-                            </li>
-                            <li>
-                                <img src="assets/img/icons/tools/cdnlogo.com_microsoft-access.svg" alt="">
-                            </li>
+                        <ul id="profile.skills.hardSkills">
                         </ul>
                     </section>
     
                     <section class="acordeon__content__personal">
                         <h3>Softs</h3>
                         <ul>
-                            <li>
+                            <li id>
                                 Liderança
                             </li>
                             <li>
