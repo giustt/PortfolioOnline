@@ -70,18 +70,25 @@
       "urlVercel": "https://react-github-api-six.vercel.app",
       "github": true
     },
+      {
+      "name": "PokeApi",
+      "url": "https://github.com/giustt/HTTP-Protocol-with-PokeApi",
+      "urlVercel": "https://http-protocol-with-poke-api.vercel.app",
+      "github": true
+      },
+      {
+      "name": "MiltonBomber - TCC",
+      "url": "https://github.com/giustt/MiltonBomber",
+      "urlVercel": "https://delicate-starlight-daead0.netlify.app/",
+      "github": true
+    },
     {
       "name": "Portfolio Alura",
       "url": "https://github.com/giustt/portfolio-alura",
       "urlVercel": "https://portfolio-alura-flax.vercel.app",
       "github": true
-    },
-    {
-      "name": "PokeApi",
-      "url": "https://github.com/giustt/HTTP-Protocol-with-PokeApi",
-      "urlVercel": "https://http-protocol-with-poke-api.vercel.app",
-      "github": true
     }
+  
 
   ],
   "professionalExperience": [
